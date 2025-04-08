@@ -1,0 +1,9 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Pretendard', sans-serif; /* 원하는 폰트 있으면 여기에 */
+    background-color: #f9fafb; /* 살짝 밝은 배경 */
+}

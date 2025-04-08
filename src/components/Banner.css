@@ -1,0 +1,41 @@
+.banner-container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.banner-item {
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.banner-text h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.banner-text p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* 반응형 스타일 (모바일 화면에 맞게 배너 크기 조정) */
+@media (max-width: 768px) {
+  .banner-container {
+    flex-direction: column;
+  }
+
+  .banner-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
